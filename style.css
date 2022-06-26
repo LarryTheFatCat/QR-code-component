@@ -1,5 +1,8 @@
 @import url('https://fonts.google.com/specimen/Outfit');
 
+* {
+    box-sizing: content-box;
+}
 .attribution { 
     font-size: 11px;
     text-align: center; 
@@ -21,11 +24,15 @@
     flex: wrap;
     display: flex;
     flex-wrap: wrap;  
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
     position: relative;
-    top: 0%;
+    top: -1%;
     right: 8%;
     float: center;
     height: 45%;
@@ -34,7 +41,8 @@ img {
 
 h1 {
     position: relative;
-    top: 10%;
+    top: 0%;
+    right: 8%;
     font-size: 20px;
     text-align: center;
 }
@@ -44,12 +52,33 @@ h1 {
     text-align: center;
     color: hsl(220, 15%, 55%);
     position: relative;
-    top: 15%;
-    left: 0;
+    top: 2%;
+    right: 8%;
+    
 }
 
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
     height: -webkit-fill-available;
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 200px;
+        height: 400px;
+        padding: 20px 20px 40px;
+        position: absolute;
+        top: 0%;
+        right: 15%;
+    }
+    img {
+        height: 40%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    .small-text {
+        font-size: 13px;
+    }
 }

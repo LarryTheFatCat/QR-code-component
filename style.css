@@ -56,7 +56,7 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 376px) {
     .card {
         position: fixed;
         left: 7%;

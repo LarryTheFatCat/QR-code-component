@@ -22,24 +22,32 @@
     top: 25%;
     left: 39.6%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: inline-block;
-    text-align: center;
 }
 
-img {   
-    height: 36vh; 
+img {
+    position: relative;
+    bottom: 1%;
+    right: 8%;
+    float: center;
+    height: 45%;
     border-radius: 20px;
 }
 
 h1 {
+    position: relative;
+    top: 0%;
+    right: 8%;
     font-size: 20px;
-    
+    text-align: center;
 }
 
 .small-text {
     font-size: 15px;
     text-align: center;
     color: hsl(220, 15%, 55%);
+    position: relative;
+    top: 2%;
+    right: 8%;
     
 }
 
@@ -48,16 +56,9 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-@media screen and (max-width: 37px) {
+@media screen and (max-width: 379px) {
     .card {
         position: fixed;
         left: 7%;
-    }
-}
-
-@media screen  and (max-width: 1440px) {
-    .card {
-        position: fixed;
-        right: 50%;
     }
 }

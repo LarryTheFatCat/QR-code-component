@@ -26,8 +26,9 @@
     flex-wrap: wrap;  
     position: absolute;
     top: 25%;
-    left: 39.5%;
+    left: 39.6%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow .5s;
 }
 
 img {
@@ -63,16 +64,16 @@ body {
     height: -webkit-fill-available;
 }
 
-@media screen and (max-wdtih: 375px) {
+@media screen and (max-width: 379px) {
     .card {
-        position: absolute;
-        right: 15%;
+        position: fixed;
+        left: 10%;
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen  and (max-width: 1440px) {
     .card {
-        position: absolute;
-        top: 15%;
+        position: fixed;
+        right: 50%;
     }
 }

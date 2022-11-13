@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  display: flex;
+  justify-content: center;
+  place-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+  overflow: hidden;
+}/*# sourceMappingURL=style.css.map */

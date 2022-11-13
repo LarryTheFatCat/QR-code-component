@@ -6,6 +6,7 @@ $white: hsl(0, 0%, 100%)
 $light-gray: hsl(212, 45%, 89%)
 $grayish-blue: hsl(220, 15%, 55%)
 $dark-blue: hsl(218, 44%, 22%)
+$font-weight: 400
 
 *
     margin: 0
@@ -29,7 +30,24 @@ body
     max-width: 10cm
     height: 15cm
     text-align: center
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+
 
 img
     max-width: 100%
     padding: 0.5cm
+
+.title-content
+    font-size: 25px
+    width: 85%
+    display: flex
+    margin: 0 auto
+
+.description-content
+    font-size: 15px
+    display: flex
+    margin: 0 auto
+    width: 65%
+    margin-top: 0.5cm
+    font-weight: 400
+    color: $grayish-blue

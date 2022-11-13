@@ -13,4 +13,18 @@ body {
   height: 100vh;
   font-family: "Outfit", sans-serif;
   overflow-y: hidden;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  max-width: 10cm;
+  height: 15cm;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  padding: 0.5cm;
 }/*# sourceMappingURL=style.css.map */
